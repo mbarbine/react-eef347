@@ -3,8 +3,6 @@ import "./style.css";
 import { firstName } from "./Name";
 import { ja3Value } from "./Name";
 import { Form } from "./Form";
-import { Form } from "./Form";
-
 import { namelist } from "./scratchpad"; 
 
 export default function App() {
@@ -37,8 +35,8 @@ export default function App() {
      <button 
         onClick={(firstName) => {
           changeRoute("home")}} > Change </button>
-    <p></p> 
       <ja3Value text={"hi"} />
+      
       <button 
         onClick={(ja3Value) => {
           changeJA3Route(ja3Value)}} > Comment </button>

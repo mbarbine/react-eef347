@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-const Form = ({handleFirstNameSubmit, currentName}) => {
+const Form = ({handleFirstNameSubmit, currentFirstName}) => {
   const [firstName, changeFirstName] = useState("Bob Barker");
   const handleClick = event => {
     handleFirstNameSubmit(firstName);

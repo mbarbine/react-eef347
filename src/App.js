@@ -7,7 +7,7 @@ import { namelist } from "./scratchpad";
 
 export default function App() {
 
-  const [submittedFirstName, changeSubmittedFirstName] = useState("Michael"); useEffect(() => {console.log(submittedFirstName), [submittedFirstName]});
+  const [submittedFirstName, firstName, changeSubmittedFirstName] = useState("Michael"); useEffect(() => {console.log(submittedFirstName), [submittedFirstName]});
   const [route, changeRoute] = useState("home");
 
 

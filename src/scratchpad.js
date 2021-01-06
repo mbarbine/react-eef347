@@ -3,11 +3,11 @@
  </ul>; 
 
 <div>
-<span id='name'>
+<span id='firstName'>
 Keith
 </span>
 </div>
-const nameElement = document.findElementById('name')
+const nameElement = document.findElementById('firstName')
 nameElement.innerHTML = 'Michael';
 const nameElement = document.findElementById('keith') 
 
